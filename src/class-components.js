@@ -15,13 +15,14 @@ export default class Calendar extends Component {
         const month = monthNames[date.getMonth()]
         const year = date.getFullYear() + 543
         const time = date.getTime()
-        const todayOverallTime = ((time + 25200000) / 1000) % 86400
+        const todayOverallTime = ((time + 25200000) % 86400000) / 1000
         const todaySecond = Math.floor(todayOverallTime % 60)
         const todayMinute = Math.floor((todayOverallTime / 60) % 60)
         const todayHour = Math.floor(((todayOverallTime / 60) / 24) % 24)
         return `Date ${weekDay} on ${day} ${month} ${year} 
         \n | 
         Current Time: 
+        ${todayOverallTime}
         ${todayHour}:${todayMinute}:${todaySecond}
         UTC+7 `
     }
