@@ -10,16 +10,16 @@ export default function Banner() {
     let url = ''
 
     switch(r) {
-        case 1:
-        banner = './banner/ad1.png'
+    case 1:
+        banner = './bannerSrc/ad1.jpg'
         url = 'https://youtu.be/MHxJXBLJW98'
         break
     case 2:
-        banner = './banner/ad2.png'
+        banner = './bannerSrc/ad2.jpg'
         url = 'https://youtu.be/NuXaVXrvWUI'
         break
     case 3:
-        banner = './banner/ad3.png'
+        banner = './bannerSrc/ad3.jpg'
         url = 'https://youtu.be/pLAT74acGrg'
         break
     default: break

@@ -2,6 +2,7 @@ import React from 'react'
 import { Header, Content, Footer } from './func-components'
 import Calendar from './class-components'
 import Banner from './banner'
+import {Calculator2} from './calculator'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Content/>
     <Footer/>
     <Banner/>
+    <Calculator2/>
   </>
   )
 }
