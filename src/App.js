@@ -4,11 +4,12 @@ import Calendar from './class-components'
 import Banner from './banner'
 import {Calculator2} from './calculator'
 import {EventData1} from './event-data'
+import RefsFunc from './refs-func'
 
 function App() {
   return (
   <>
-    <EventData1/>
+    <RefsFunc/>
   </>
   )
 }
