@@ -5,11 +5,12 @@ import Banner from './banner'
 import {Calculator2} from './calculator'
 import {EventData1} from './event-data'
 import RefsFunc from './refs-func'
+import RefsArray from './refs-array'
 
 function App() {
   return (
   <>
-    <RefsFunc/>
+    <RefsArray/>
   </>
   )
 }
