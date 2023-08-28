@@ -25,12 +25,18 @@ export default function MessageBox() {
         textAlign: 'left'
     }
 
+    const tempFuncExist = () => {
+        let a = "Yes"
+        alert(a)
+    }
+
     return (
         <div style = {{ textAlign:'center', marginTop:20}}>
             <div style = { msgboxStyle }>{text}</div><br/><br/>
             <button onClick = {onClickSetText}>Message</button>&nbsp;
             <button onClick = {onClickZoomIn}>Increase size</button>&nbsp;
             <button onClick = { () => setSize(size - 1)}>Decrease size</button>
+            <button onClick = {tempFuncExist}>This button exist</button>
         </div>
     )
 }
