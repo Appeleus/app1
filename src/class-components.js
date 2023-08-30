@@ -1,6 +1,6 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-export default class Calendar extends Component {
+export default class Calendar extends React.Component {
     getDate() {
         const dayNames = ['Sunday','Monday','Tuesday',
                         'Wednesday','Thursday','Friday',

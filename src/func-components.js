@@ -25,7 +25,7 @@ export function Content() {
     )
 }
 
-export const Footer = () => {
+export function Footer() {
     return (
         <div style = { {textAlign: 'center'} }>
             &copy; {new Date().getFullYear()} All rights reserved

@@ -35,7 +35,7 @@ export default function MessageBox() {
             <div style = { msgboxStyle }>{text}</div><br/><br/>
             <button onClick = {onClickSetText}>Message</button>&nbsp;
             <button onClick = {onClickZoomIn}>Increase size</button>&nbsp;
-            <button onClick = { () => setSize(size - 1)}>Decrease size</button>
+            <button onClick = { () => setSize(size - 1)}>Decrease size</button>&nbsp;
             <button onClick = {tempFuncExist}>This button exist</button>
         </div>
     )
