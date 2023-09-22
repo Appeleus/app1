@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function Header() {
+export function HeaderFunc() {
     const aStyle = {
         display: 'inline-block',
         color: 'blue',
@@ -16,7 +16,7 @@ export function Header() {
     )
 }
 
-export function Content() {
+export function ContentFunc() {
     return (
         <div style = { {textAlign: 'center'} }>
             <h2>Hello<br/>React & React Native</h2>
@@ -25,7 +25,7 @@ export function Content() {
     )
 }
 
-export function Footer() {
+export function FooterFunc() {
     return (
         <div style = { {textAlign: 'center'} }>
             &copy; {new Date().getFullYear()} All rights reserved
