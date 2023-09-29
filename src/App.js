@@ -19,10 +19,11 @@ import Products from './products';
 import Home from './home';
 import Contact from './contact';
 import FormText from './form-text.js'
+import FormCheck from './form-check.js'
 
 
 
 export default function App() {
-  return <FormText/>
+  return <FormCheck/>
   
 };
