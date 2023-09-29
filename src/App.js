@@ -18,9 +18,11 @@ import Router3 from "./router3";
 import Products from './products';
 import Home from './home';
 import Contact from './contact';
+import FormText from './form-text.js'
 
 
 
 export default function App() {
-  return <Router3/>
+  return <FormText/>
+  
 };
