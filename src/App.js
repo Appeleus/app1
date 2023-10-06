@@ -13,17 +13,18 @@ import React from 'react'
 // import Content from './context-content'
 // import Header2 from './context-header2'
 // import Content2 from './context-content2'
-import Router2 from "./router2";
-import Router3 from "./router3";
-import Products from './products';
-import Home from './home';
-import Contact from './contact';
-import FormText from './form-text.js'
-import FormCheck from './form-check.js'
+// import Router2 from "./router2";
+// import Router3 from "./router3";
+// import Products from './products';
+// import Home from './home';
+// import Contact from './contact';
+// import FormText from './form-text.js'
+// import FormCheck from './form-check.js'
+import FormValidation from './form-validation';
 
 
 
 export default function App() {
-  return <FormCheck/>
+  return <FormValidation/>
   
 };
